@@ -256,7 +256,7 @@ public class Task37 extends javax.swing.JFrame {
         if(jrbRectangle.isSelected())
             currentFig = new additionalfigures.Rectangle(15,45, this.graphics);
         if(jrbSquare.isSelected())
-            currentFig = new figures.Square(15, this.graphics);
+            currentFig = new additionalfigures.Square(15, this.graphics);
         if(jrbDot.isSelected())
             currentFig = new figures.Dot(this.graphics);
 
